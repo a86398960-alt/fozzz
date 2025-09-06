@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "dev:full": "concurrently \"npm run dev\" \"npm run server\"",
     "server": "cd server && npm run dev",
+    "dev:full": "concurrently \"npm run dev\" \"npm run server\"",
     "build": "vue-tsc -b && vite build",
     "preview": "vite preview"
   },
